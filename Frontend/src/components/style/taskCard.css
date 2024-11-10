@@ -1,0 +1,44 @@
+/* taskCard.css */
+
+.task-card {
+  display: flex;
+  align-items: start;
+  width: 18rem;
+  margin-top: 20px;
+  background-color: #ecedee;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.image-container {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expired-image {
+  width: 22px;
+  height: 22px;
+}
+
+.task-heading {
+  font-weight: 500;
+  font-size: 14px;
+  color: #797979;
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 28px;
+  color: #060606;
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}

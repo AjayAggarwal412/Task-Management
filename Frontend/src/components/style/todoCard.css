@@ -1,0 +1,94 @@
+.card-container {
+  width: 18rem;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.low-label {
+  width: 70px;
+  height: 23px;
+  padding: 2px;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.dot-image {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-title {
+  color: #0d062d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #787486;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.deadline-text {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.deadline-value {
+  font-weight: 500;
+  font-size: 12px;
+  color: #5a5a5a;
+}
+
+.menu-icon {
+  cursor: pointer;
+  margin-left: 20px;
+  /* Set the color of the icon */
+}
+
+.dropdown-menu {
+  min-width: 150px; /* Set a minimum width for the dropdown */
+}
+
+.custom-dropdown-toggle {
+  background: none; /* No background */
+  border: none; /* No border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Ensure pointer cursor on hover */
+}
+
+.custom-dropdown-toggle:hover {
+  color: #333; /* Change color on hover */
+}
+
+@media (min-width: 320px) {
+  .card-container {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .card-container {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .card-container {
+    width: 22rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    width: 18rem;
+  }
+}

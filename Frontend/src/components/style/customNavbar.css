@@ -1,0 +1,75 @@
+/* navbar.css */
+
+.navbar-container {
+  padding: 10px 20px 0 30px;
+}
+
+.custom-navbar {
+  background-color: #ecedee;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  border-radius: 22px;
+  padding: 10px 12px;
+  width: 308px;
+  margin-right: 10px;
+}
+
+.search-input:focus {
+  border-color: white; /* Change to your desired color */
+  outline: none; /* Removes the default focus outline */
+  box-shadow: 0 0 0px white; /* Optional: Add a shadow effect */
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: left;
+}
+
+.filter-dropdown {
+  border-radius: 22px;
+  padding: 8px 16px;
+  margin-left: 55px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust container padding for smaller screens */
+  .navbar-container {
+    padding: 10px 20px 0 20px;
+  }
+
+  /* Stack the form and dropdown vertically on mobile */
+  .custom-navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 15px;
+  }
+
+  .search-form {
+    flex: 1;
+    margin-bottom: 10px; /* Add space between search bar and filter dropdown */
+  }
+
+  .search-input {
+    width: 100%; /* Full-width on smaller screens */
+  }
+
+  .dropdown-container {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .filter-dropdown {
+    width: 100%; /* Full-width dropdown on mobile */
+    text-align: center;
+    margin-left: 0;
+  }
+}

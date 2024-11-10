@@ -35,7 +35,7 @@ function TaskModal({ show, handleClose, onTaskCreated }: TaskModalProps) {
       };
 
       // Send a POST request to the backend to create the task
-      const response = await axios.post(
+      await axios.post(
         "http://localhost:5000/api/newtask", // Adjust the API URL if needed
         taskData
       );
@@ -61,7 +61,7 @@ function TaskModal({ show, handleClose, onTaskCreated }: TaskModalProps) {
                 width: "10px",
                 margin: " 15px 10px",
               }}
-              alt="image"
+              alt="dotimage"
             />
             ADD TASK
           </Modal.Title>

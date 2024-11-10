@@ -30,7 +30,7 @@ function TodoCard({
   onDelete,
   onUpdateTask,
 }: TaskCardProps) {
-  const { title, description, deadline, status } = task;
+  const { title, description, deadline } = task;
   const formattedDeadline = new Date(deadline).toLocaleDateString("en-GB");
   const [showUpdateModal, setShowUpdateModal] = useState(false);
 

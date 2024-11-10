@@ -187,7 +187,7 @@ const Dashboard = ({ searchTerm }: DashboardProps) => {
             <img
               src={require("../images/Ellipse 13.png")}
               className="image"
-              alt="image"
+              alt="dotimage"
             />
             To Do
           </Row>
@@ -253,7 +253,7 @@ const Dashboard = ({ searchTerm }: DashboardProps) => {
             <img
               src={require("../images/Ellipse 12.png")}
               className="image"
-              alt="image"
+              alt="dotimage"
             />
             On Progress
           </Row>
@@ -320,7 +320,7 @@ const Dashboard = ({ searchTerm }: DashboardProps) => {
             <img
               src={require("../images/Ellipse 11.png")}
               className="image"
-              alt="image"
+              alt="dotimage"
             />
             Done
           </Row>

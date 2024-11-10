@@ -1,5 +1,0 @@
-# Node modules backend
-/node_modules
-
-# .env files (for security reasons)
-/.env

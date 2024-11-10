@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const Task = require("./models/Task");
+const Task = require("../models/Task");
 
 dotenv.config();
 

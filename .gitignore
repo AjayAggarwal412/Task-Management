@@ -1,6 +1,0 @@
-# Node modules for both frontend and backend
-/Frontend/node_modules/
-/Backend/node_modules/
-
-# .env files (for security reasons)
-/Backend/.env

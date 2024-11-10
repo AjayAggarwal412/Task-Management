@@ -4,7 +4,6 @@ A simple yet powerful task management application built with the MERN stack (Mon
 
 ## Features
 
-- **User Authentication**: Sign up and log in to manage tasks securely.
 - **Add New Tasks**: Create tasks with titles, descriptions, and deadlines.
 - **Categorize Tasks**: Organize tasks into categories like `On Progress`, `Done`, and more.
 - **Real-time Updates**: Tasks are automatically updated in the UI without the need for page refreshes.

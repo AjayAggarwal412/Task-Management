@@ -1,6 +1,3 @@
-Here's a beautifully formatted README for your Task Management project in MERN:
-
-```markdown
 # Task Management Application (MERN Stack)
 
 A simple yet powerful task management application built with the MERN stack (MongoDB, Express, React, Node.js). This app allows users to add, update, delete and tasks. It features an intuitive interface, dynamic task handling, and seamless integration between the front-end and back-end.
